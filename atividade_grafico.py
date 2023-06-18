@@ -4,7 +4,6 @@ import matplotlib.pyplot as plt
 
 caminho_arquivo = "A:/Curso/Módulo_18/Atividade/gasolina.csv"
 df = pd.read_csv(caminho_arquivo)
-df.head()
 
 plt.style.use("ggplot")
 plt.figure(figsize=(15,5))
